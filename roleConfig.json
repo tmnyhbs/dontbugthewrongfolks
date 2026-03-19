@@ -1,0 +1,23 @@
+{
+  "ROLE_ID_HERE_1": {
+    "name": "Moderators",
+    "emoji": "🛡️",
+    "description": "Moderators handle rule enforcement, member disputes, and maintaining a safe community environment. They can mute, kick, and ban members.",
+    "whenToTag": "Tag this role if you witness rule violations, harassment, or need a moderator to step in on an active situation.",
+    "responseTime": "Usually within a few hours. For urgent issues, use the #mod-mail channel."
+  },
+  "ROLE_ID_HERE_2": {
+    "name": "Support Team",
+    "emoji": "🎧",
+    "description": "The Support Team helps with account issues, bot problems, and general server questions. They're your first stop for technical help.",
+    "whenToTag": "Tag this role if you have a support request that hasn't been answered in #support within 24 hours.",
+    "responseTime": "Typically respond within a day. Check the #faq channel before tagging."
+  },
+  "ROLE_ID_HERE_3": {
+    "name": "Admins",
+    "emoji": "⚙️",
+    "description": "Admins manage server settings, permissions, bots, and large-scale community decisions. They handle escalations from the mod team.",
+    "whenToTag": "Tag this role only for serious issues that moderators can't resolve, or for server-wide suggestions.",
+    "responseTime": "Response times vary. Admins are busy — please exhaust other options first."
+  }
+}
