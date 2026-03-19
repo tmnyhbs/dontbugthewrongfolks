@@ -8,14 +8,14 @@ When confirmed or edited, the message is reposted via a webhook so it appears un
 
 ## Features
 
-- Intercepts role pings before they notify anyone
-- Explains each role — what they do, when to tag them, expected response time
-- Confirm — reposts the original message exactly as written, pings included
-- Edit — opens a pre-filled Discord modal so the user can revise before sending
-- Cancel — discards the message entirely
-- Webhook reposting — confirmed/edited messages appear under the user's name & avatar
-- 5-minute expiry — intercepts auto-expire to prevent stale interactions
-- Author-only interactions — other users can't click the buttons
+- 🛡️ **Intercepts role pings** before they notify anyone
+- 📋 **Explains each role** — what they do, when to tag them, expected response time
+- ✅ **Confirm** — reposts the original message exactly as written, pings included
+- ✏️ **Edit** — opens a pre-filled Discord modal so the user can revise before sending
+- 🗑️ **Cancel** — discards the message entirely
+- 👤 **Webhook reposting** — confirmed/edited messages appear under the user's name & avatar
+- ⏳ **5-minute expiry** — intercepts auto-expire to prevent stale interactions
+- 🔒 **Author-only interactions** — other users can't click the buttons
 
 ---
 
@@ -27,8 +27,8 @@ When confirmed or edited, the message is reposted via a webhook so it appears un
 2. Click **New Application** → name it → go to the **Bot** tab
 3. Click **Reset Token** and copy your token
 4. Under **Privileged Gateway Intents**, enable:
-   - **Server Members Intent**
-   - **Message Content Intent**
+   - ✅ **Server Members Intent**
+   - ✅ **Message Content Intent**
 
 ### 2. Invite the Bot to Your Server
 
